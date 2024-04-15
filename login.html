@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+        <img src="side-image.svg" alt="Imagem">
+    </div>
+ <div class="right-side">
+  <div class="login-form">
+    <img src="logo.svg" alt="Logo Tiflux" class="logo">
+    <h3>→]Faça seu login</h3>
+    <h5>Entre com suas informações de cadastro.</h5>    
+    <form class="login-form">
+      <div class="input-container">
+        <label for="email">Email</label>
+        <img src="mail.svg" alt="Ícone de Envelope" class="icon">
+        <input type="email" placeholder="Digite seu e-mail" required>
+      </div>
+      <div class="input-container">
+        <label for="senha">Senha</label>
+        <img src="lock.svg" alt="Ícone de Cadeado" class="icon">
+        <input type="password" placeholder="Digite sua senha" required>
+        <img src="eye.svg" alt="Ícone de Visualizar Senha" class="icon" id="show-password">
+      </div>
+      <div class="form-options">
+        <label>
+          <input type="checkbox" name="remember"> Lembrar-me
+        </label>
+        <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+      </div>
+      <button type="submit">Entrar</button>
+    </form>
+    <div class="register">
+      <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+  </div>
+    </div>
+  </div>
+</body>
+</html>
